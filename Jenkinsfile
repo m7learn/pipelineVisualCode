@@ -6,14 +6,17 @@ pipeline {
         echo 'Test visual'
       }
     }
+
     stage('Test') {
       steps {
         echo 'Test  Test '
       }
     }
+
     stage('Deploy') {
       steps {
         echo 'Test  Deploy '
+        echo 'ok all done'
       }
     }
 
